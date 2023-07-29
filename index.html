@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/master.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <title>first templete</title>
+</head>
+
+<body>
+    <div class="setting">
+        <div class="toogle-setting"><i class="fa-solid fa-gear"></i></div>
+        <div class="setting-contin">
+            <div class="option-box">
+                <h4>color</h4>
+                <ul class="colors">
+                    <li class="active" data-color="rgb(158, 105, 249)"></li>
+                    <li data-color="rgb(7, 127, 174)"></li>
+                    <li data-color="rgb(31, 187, 104)"></li>
+                    <li data-color="rgb(199, 155, 43)"></li>
+                    <li data-color="darksalmon"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random background</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes">YES</span>
+                    <span class="no" data-background="no">NO</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>show bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show">SHOW</span>
+                    <span class="no" data-display="hide">HIDE</span>
+                </div>
+            </div>
+            <button class="reset">Reset option</button>
+        </div>
+    </div>
+    <div class="landing">
+        <div class="overlay"></div>
+        <div class="con">
+            <div class="header">
+                <div class="logo"><i class="fa-solid fa-heart"></i></div>
+                <div class="links-con">
+                    <ul class="link">
+                        <li><p to="about-us">About us</p></li>
+                        <li><p to="skills">skills</p></li>
+                        <li><p to="gallry">our gallry</p></li>
+                        <li><p to="time-line">timeline</p></li>
+                        <li><p to="team">our team</p></li>
+                        <li><p to="opinions">opinions</p></li>
+                        <i class="fa-solid fa-caret-up arr"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars men"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>we are <span> front-end </span> developers</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis vitae sit atque voluptatum itaque
+                necessitatibus, esse iusto deleniti rerum fuga suscipit aliquam.</p>
+
+        </div>
+    </div>
+    <div class="con">
+        <div class="about-us" id="about-us">
+            <div class="info-box">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor, quos obcaecati. Similique recusandae
+                    nostrum ipsa vero, omnis quae cumque eaque cum molestiae eveniet rem illo beatae perferendis optio
+                    necessitatibus repellendus!</p>
+            </div>
+            <div class="Ab-imgs">
+                <img src="img/iilue1.png">
+            </div>
+        </div>
+    </div>
+    <div class="navlink">
+        <div class="navl"  data-section=".about-us">
+            <div class="nav-toogle">About us</div>
+        </div>
+        <div class="navl"  data-section=".skills">
+            <div class="nav-toogle">our skills</div>
+        </div>
+        <div class="navl"  data-section=".gallry">
+            <div class="nav-toogle">our gallry</div>
+        </div>
+        <div class="navl"  data-section=".time-line">
+            <div class="nav-toogle" >timeline</div>
+        </div>
+        <div class="navl"  data-section=".team">
+            <div class="nav-toogle">our team</div>
+        </div>
+        <div class="navl"  data-section=".opinions">
+            <div class="nav-toogle">opinions</div>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <div class="con">
+            <h2>our skills</h2>
+            <div class="skill-box">
+                <p>html</p>
+                <div class="progress">
+                    <span data-pro="50%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <p>css</p>
+                <div class="progress">
+                    <span data-pro="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <p>javascript</p>
+                <div class="progress">
+                    <span data-pro="65%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <p>python</p>
+                <div class="progress">
+                    <span data-pro="40%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <p>sql</p>
+                <div class="progress">
+                    <span data-pro="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <p>php</p>
+                <div class="progress">
+                    <span data-pro="25%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallry" id="gallry">
+        <div class="con">
+            <h2>our gallry</h2>
+            <div class="imge-box">
+                <img src="img/01.jpg" alt="img one">
+                <img src="img/02.jpg" alt="img tow">
+                <img src="img/03.jpg" alt="img three">
+                <img src="img/04.jpg" alt="img four">
+                <img src="img/05.png">
+            </div>
+        </div>
+    </div>
+    <div class="time-line" id="time-line">
+        <div class="con">
+            <div class="line">
+                <h3>Timeline</h3>
+                <div class="time-con">
+                    <div class="year">2020</div>
+                    <div class="left">
+                        <div class="content">
+                        <h4>left</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a soluta ipsum nulla aliquam, odit inventore praesentium. Inventore vel rem</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                    <div class="right">
+                        <div class="content">
+                        <h4>right</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt sit incidunt ipsam deserunt, error natus minima corporis recusandae, molestiae repel</p>
+                    </div>
+                </div>
+                </div>
+                <div class="time-con">
+                    <div class="year">2018</div>
+                    <div class="left">
+                        <div class="content">
+                        <h4>left</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima a soluta ipsum nulla aliquam, odit inventore praesentium. Inventore vel rem</p>
+                    </div>
+                </div>
+                <div class="clearFix"></div>
+                    <div class="right">
+                        <div class="content">
+                        <h4>right</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt sit incidunt ipsam deserunt, error natus minima corporis recusandae, molestiae repel</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="team" id="team">
+        <div class="con fl">
+            <h3>our team</h3>
+            <div class="work-box">
+                <img src="/img/icon1.png" alt="">
+                <h4>master sans</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, </p>
+            </div>
+            <div class="work-box">
+                <img src="/img/icon2.png" alt="">
+                <h4>master sans</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, </p>
+            </div>
+            <div class="work-box">
+                <img src="/img/icon3.png" alt="">
+                <h4>master sans</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, </p>
+            </div>
+            <div class="work-box">
+                <img src="/img/icon4.png" alt="">
+                <h4>master sans</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, </p>
+            </div>
+            <div class="work-box">
+                <img src="/img/icon5.png" alt="">
+                <h4>master sans</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, </p>
+            </div>
+            <div class="work-box">
+                <img src="/img/icon6.png" alt="">
+                <h4>master sans</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, </p>
+            </div>
+        </div>
+    </div>
+    <div class="opinions" id="opinions">
+        <div class="con">
+            <h3>opinions</h3>
+            <div class="opinions-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt pariatur, molestiae amet unde facere sed provident velit? Minima, excepturi eius cumque amet labore ducimus deserunt reprehenderit officiis at debitis consectetur.</p>
+                <div class="pepole-info">
+                    <img src="/img/icon1.png" alt="">
+                    <h4>Yousef Mostafa</h4>
+                    <p>full-stack developers</p>
+                </div>
+            </div>
+            <div class="opinions-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt pariatur, molestiae amet unde facere sed provident velit? Minima, excepturi eius cumque amet labore ducimus deserunt reprehenderit officiis at debitis consectetur.</p>
+                <div class="pepole-info">
+                    <img src="/img/icon2.png" alt="">
+                    <h4>Yousef Mostafa</h4>
+                    <p>full-stack developers</p>
+                </div>
+            </div>
+            <div class="opinions-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt pariatur, molestiae amet unde facere sed provident velit? Minima, excepturi eius cumque amet labore ducimus deserunt reprehenderit officiis at debitis consectetur.</p>
+                <div class="pepole-info">
+                    <img src="/img/icon3.png" alt="">
+                    <h4>Yousef Mostafa</h4>
+                    <p>full-stack developers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-us">
+        <div class="overlay"></div>
+        <h3>Contact us</h3>
+        <div class="con">
+            <div class="left">
+            <form action="">
+                <input type="text" placeholder="Your name" name="username">
+                <input type="text" placeholder="Your phone" name="phone">
+                <input type="email" placeholder="Your email" name="email">
+                <input type="text" placeholder="subject" name="subject">
+            </form>
+        </div>
+        <div class="right">
+            <textarea name="" placeholder="enter your opinion"></textarea>
+            <button class="send">Send</button>
+        </div>
+    </div>
+    </div>
+    <footer>created by love master Yousef Mostafa</footer>
+</body>
+<script src="/js/master.js"></script>
+<script src="js/fonts.js"></script>
+</html>
