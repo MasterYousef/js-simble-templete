@@ -52,7 +52,7 @@ function backgroundOption(){
  if(backgroundop === true){
     backgroundtimer = setInterval(() => {
         let random = Math.floor(Math.random() * imgArray.length);
-        page.style.backgroundImage = `url("../img/${imgArray[random]}")`
+        page.style.backgroundImage = `url("./img/${imgArray[random]}")`
     },10000);
  }
 }
